@@ -40,7 +40,7 @@ const About: React.FC = () => {
 
                     <div className="space-y-6 text-lg md:text-xl text-white/60 font-medium leading-[1.6] max-w-xl">
                         <p>
-                            SYRO INNOVATIVE FITNESS isn't just a gym. It's a <span className="text-white font-bold">performance laboratory</span>.
+                            A2 FITNESS isn't just a gym. It's a <span className="text-white font-bold">performance laboratory</span>.
                         </p>
                         <p>
                             We leverage advanced bio-mechanics, data-driven programming, and elite coaching to optimize human potential. Built on innovation and precision, we redefine what your body is capable of.

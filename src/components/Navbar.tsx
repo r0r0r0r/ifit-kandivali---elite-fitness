@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                     {/* Logo Section */}
                     <Link to="/" className="flex flex-col justify-center group z-50 relative">
                         <div className="relative flex items-center">
-                            <span className="text-3xl md:text-4xl font-orbitron font-bold text-white tracking-[0.15em] leading-none transition-colors duration-300">SYRO</span>
+                            <span className="text-3xl md:text-4xl font-orbitron font-bold text-white tracking-[0.15em] leading-none transition-colors duration-300">A2</span>
                             
                             {/* Accent Icon */}
                             <div className="ml-1 md:ml-2 text-neon transform group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
                             </div>
                         </div>
                         <span className="text-[9px] md:text-[10px] font-brand font-medium text-white/50 tracking-[0.35em] mt-1 uppercase transition-colors duration-300 group-hover:text-white/80">
-                            INNOVATIVE FITNESS
+                            FITNESS
                         </span>
                     </Link>
 
@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
 
                 <div className={`pb-10 px-8 flex items-center justify-between border-t border-white/10 pt-6 transform transition-all duration-500 delay-500 ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
                     <div className="text-white/40 text-xs font-brand tracking-widest">
-                        SYRO PERFORMANCE
+                        A2 PERFORMANCE
                     </div>
                     <div className="flex gap-6 text-white/60">
                         <a href="#" className="hover:text-neon transition-colors"><Instagram size={20} /></a>

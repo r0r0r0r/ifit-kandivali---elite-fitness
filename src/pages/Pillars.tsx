@@ -26,7 +26,7 @@ const Pillars: React.FC = () => {
                                 <span className="flex items-center gap-4 mt-2">
                                     AT
                                     <span className="inline-flex items-center gap-1 font-brand font-medium tracking-[0.1em]">
-                                        <span className="text-neon normal-case">SYRO</span>
+                                        <span className="text-neon normal-case">A2</span>
                                     </span>
                                 </span>
                             </h2>

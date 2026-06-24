@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
                 {/* Brand & Socials */}
                 <div className="space-y-6">
                     <div className="flex flex-col items-start mb-2">
-                        {/* Interactive Logo: SYRO + Subtext + Accent */}
+                        {/* Interactive Logo: A2 + Subtext + Accent */}
                         <div className="relative">
-                            <span className="text-4xl md:text-6xl font-brand font-medium text-white tracking-[0.1em] leading-none">SYRO</span>
+                            <span className="text-4xl md:text-6xl font-brand font-medium text-white tracking-[0.1em] leading-none">A2</span>
 
                             {/* Accent Icon above 'O' (Abstract Leaping Athlete) */}
                             <div className="absolute -top-2 -right-2 md:-top-3 md:-right-3 text-neon animate-pulse-slow">
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                             </div>
                         </div>
                         <span className="text-[10px] font-brand font-bold text-white/60 tracking-[0.4em] -mt-1 uppercase">
-                            INNOVATIVE FITNESS
+                            FITNESS
                         </span>
                         {/* Tagline from Reference */}
                         <div className="mt-3 text-[10px] font-brand font-bold tracking-widest uppercase text-white/80">
@@ -101,7 +101,7 @@ const Footer: React.FC = () => {
 
             <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
                 <div className="text-[10px] text-zinc-500 font-black uppercase tracking-[0.2em]">
-                    © 2024 SYRO INNOVATIVE FITNESS. ALL RIGHTS RESERVED.
+                    © 2024 A2 FITNESS. ALL RIGHTS RESERVED.
                 </div>
                 <div className="flex gap-6 text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
                     <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

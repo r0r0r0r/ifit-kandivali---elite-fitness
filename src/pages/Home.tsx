@@ -26,7 +26,7 @@ const Home: React.FC = () => {
                                     TRAINING
                                 </h1>
                                 <h1 className="text-[clamp(3.5rem,6vw,7rem)] font-black leading-[0.9] tracking-tight uppercase italic text-white -mt-2">
-                                    AT <span className="text-neon normal-case font-orbitron font-bold tracking-[0.1em]">SYRO</span>
+                                    AT <span className="text-neon normal-case font-orbitron font-bold tracking-[0.1em]">A2</span>
                                 </h1>
                             </div>
 

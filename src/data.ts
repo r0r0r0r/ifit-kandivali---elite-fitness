@@ -1,7 +1,7 @@
 import { InstagramPost, Trainer, Transformation } from '../types';
 
 export const MOCK_POSTS: InstagramPost[] = [
-    { id: '1', imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&h=600&auto=format&fit=crop', caption: 'Pushing limits every single day at SYRO Kandivali. #FitnessMotivation', likes: '1.2k', comments: '48', type: 'image' },
+    { id: '1', imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&h=600&auto=format&fit=crop', caption: 'Pushing limits every single day at A2 Fitness Kandivali. #FitnessMotivation', likes: '1.2k', comments: '48', type: 'image' },
     { id: '2', imageUrl: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=600&h=600&auto=format&fit=crop', caption: 'Our 6AM crew bringing the heat! 🔥 #MorningWorkout', likes: '850', comments: '32', type: 'video' },
     { id: '3', imageUrl: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=600&h=600&auto=format&fit=crop', caption: "Strength isn't just physical. It's mental. Join the elite. #StrongerTogether", likes: '2.1k', comments: '112', type: 'image' },
     { id: '4', imageUrl: 'https://images.unsplash.com/photo-1574680096145-d05b474e2158?q=80&w=600&h=600&auto=format&fit=crop', caption: 'New lifting racks have arrived! Your PR is waiting. #GymLife', likes: '940', comments: '15', type: 'image' }
