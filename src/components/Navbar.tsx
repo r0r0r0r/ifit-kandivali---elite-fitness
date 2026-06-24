@@ -28,24 +28,18 @@ const Navbar: React.FC = () => {
             <div className="w-full max-w-[1400px] mx-auto px-6 lg:px-12">
                 <div className="flex items-center justify-between h-20 md:h-24">
                     {/* Logo Section */}
-                    <Link to="/" className="flex flex-col justify-center group z-50 relative">
-                        <div className="relative flex items-center">
-                            <span className="text-3xl md:text-4xl font-orbitron font-bold text-white tracking-[0.15em] leading-none transition-colors duration-300">A2</span>
-                            
-                            {/* Accent Icon */}
-                            <div className="ml-1 md:ml-2 text-neon transform group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-6 md:h-6">
-                                    <path d="M20.5 10.5L16 6.5L18.5 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M16 6.5L12 10.5L8 9L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M12 10.5L13.5 16L10.5 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M13.5 16L18 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <circle cx="17.5" cy="3.5" r="1.5" fill="currentColor" />
-                                </svg>
-                            </div>
+                    <Link to="/" className="flex items-center gap-3 group z-50 relative">
+                        <img
+                            src="/assets/a2_fitness_logo.png"
+                            alt="A2 Fitness Logo"
+                            className="w-12 h-12 md:w-14 md:h-14 object-contain rounded-full border border-white/10 group-hover:scale-105 active:scale-95 transition-all duration-300"
+                        />
+                        <div className="flex flex-col justify-center">
+                            <span className="text-xl md:text-2xl font-orbitron font-bold text-white tracking-[0.1em] leading-none transition-colors duration-300">A2</span>
+                            <span className="text-[8px] md:text-[9px] font-brand font-medium text-white/50 tracking-[0.25em] mt-1 uppercase transition-colors duration-300 group-hover:text-white/80">
+                                FITNESS
+                            </span>
                         </div>
-                        <span className="text-[9px] md:text-[10px] font-brand font-medium text-white/50 tracking-[0.35em] mt-1 uppercase transition-colors duration-300 group-hover:text-white/80">
-                            FITNESS
-                        </span>
                     </Link>
 
                     {/* Desktop Navigation */}

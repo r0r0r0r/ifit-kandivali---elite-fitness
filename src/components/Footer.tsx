@@ -10,28 +10,20 @@ const Footer: React.FC = () => {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
                 {/* Brand & Socials */}
                 <div className="space-y-6">
-                    <div className="flex flex-col items-start mb-2">
-                        {/* Interactive Logo: A2 + Subtext + Accent */}
-                        <div className="relative">
-                            <span className="text-4xl md:text-6xl font-brand font-medium text-white tracking-[0.1em] leading-none">A2</span>
-
-                            {/* Accent Icon above 'O' (Abstract Leaping Athlete) */}
-                            <div className="absolute -top-2 -right-2 md:-top-3 md:-right-3 text-neon animate-pulse-slow">
-                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-7 md:h-7 drop-shadow-[0_0_8px_rgba(204,255,0,0.8)]">
-                                    <path d="M20.5 10.5L16 6.5L18.5 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M16 6.5L12 10.5L8 9L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M12 10.5L13.5 16L10.5 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M13.5 16L18 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <circle cx="17.5" cy="3.5" r="1.5" fill="currentColor" />
-                                </svg>
+                    <div className="flex items-center gap-4 mb-4">
+                        <img
+                            src="/assets/a2_fitness_logo.png"
+                            alt="A2 Fitness Logo"
+                            className="w-16 h-16 md:w-20 md:h-20 object-contain rounded-full border border-white/15"
+                        />
+                        <div className="flex flex-col items-start">
+                            <span className="text-3xl md:text-4xl font-brand font-medium text-white tracking-[0.1em] leading-none">A2</span>
+                            <span className="text-[10px] font-brand font-bold text-white/60 tracking-[0.4em] mt-1 uppercase">
+                                FITNESS
+                            </span>
+                            <div className="mt-2 text-[9px] font-brand font-bold tracking-widest uppercase text-white/80">
+                                WHERE <span className="text-neon">FITNESS</span> MEETS <span className="text-neon">PASSION</span>
                             </div>
-                        </div>
-                        <span className="text-[10px] font-brand font-bold text-white/60 tracking-[0.4em] -mt-1 uppercase">
-                            FITNESS
-                        </span>
-                        {/* Tagline from Reference */}
-                        <div className="mt-3 text-[10px] font-brand font-bold tracking-widest uppercase text-white/80">
-                            WHERE <span className="text-neon">FITNESS</span> MEETS <span className="text-neon">PASSION</span>
                         </div>
                     </div>
                     <p className="text-zinc-400 text-sm font-medium leading-relaxed">
