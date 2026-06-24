@@ -1,0 +1,8 @@
+{
+  "name": "iFIT Kandivali - Elite Fitness",
+  "description": "A high-performance gym landing page for iFIT Kandivali, featuring neon accents, a dynamic media grid, and human-centric design.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
